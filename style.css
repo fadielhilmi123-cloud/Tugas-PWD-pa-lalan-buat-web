@@ -1,0 +1,308 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+ display: flex;
+ justify-content: space-between;   
+ align-items: center;
+ background-color: rgb(83, 83, 83);
+ padding: 18px;
+ color: rgb(240, 237, 237);
+ flex-wrap: wrap;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+.navbar ul li a:hover{
+    background-color: wheat;
+}
+ .pencarian input{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .pencarian button{
+    padding: 7px 10px;
+    background-color: aqua;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ .pencarian button:hover {
+    background: darkgray;
+    color: white;
+ }
+
+ .hero{
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(tony.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 420px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(241, 241, 241);
+ }
+ .hero h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.45);
+    text-align: center;
+}
+.hero p {
+    font-size: 25px ;
+    margin-bottom: 25px;
+    text-shadow: rgba(0,0,0,0.45);
+}
+
+.product {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(94, 90, 90);
+}
+.product h2{
+    color: aliceblue;
+}
+.product-box {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product-item {
+    background-color: rgb(24, 21, 21);
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px,4px,6px;
+}
+.product-item:hover{
+    transform: translateY(-5px);
+}
+.product-item .placeholder{
+    background-color: #ccc;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ background-size: cover;
+ background-position: center;
+}
+.product-item .placeholder h2 {
+    text-align: justify;
+}
+/* --------------------------------------------------------- */
+.product1 {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: rgb(94, 90, 90);
+}
+.product1 h2{
+    color: aliceblue;
+}
+.product1-box {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(100px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product1-item {
+    background-color: rgb(24, 21, 21);
+    height: fit-content;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px,4px,4px;
+}
+.product1-item:hover{
+    transform: translateY(-5px);
+}
+.product1-item .placeholder{
+    background-color: #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ background-size: cover;
+ background-position: center;
+}
+.product1-item .placeholder h2 {
+    text-align: justify;
+}
+
+.product2 {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: rgb(94, 90, 90);
+}
+.product2 h2{
+    color: aliceblue;
+}
+.product2-box {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(100px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product2-item {
+    background-color: rgb(24, 21, 21);
+    height: fit-content;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px,4px,4px;
+}
+.product2-item:hover{
+    transform: translateY(-5px);
+}
+.product2-item .placeholder{
+    background-color: #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ background-size: cover;
+ background-position: center;
+}
+.product2-item .placeholder h2 {
+    text-align: justify;
+}
+
+.product3 {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: rgb(94, 90, 90);
+}
+.product3 h2{
+    color: aliceblue;
+}
+.product3-box {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(100px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product3-item {
+    background-color: rgb(24, 21, 21);
+    height: fit-content;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px,4px,4px;
+}
+.product3-item:hover{
+    transform: translateY(-5px);
+}
+.product3-item .placeholder{
+    background-color: #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ background-size: cover;
+ background-position: center;
+}
+.product3-item .placeholder h2 {
+    text-align: justify;
+}
+
+.product4 {
+    text-align: center;
+    padding: 20px 10px;
+    background-color: rgb(94, 90, 90);
+}
+.product4 h2{
+    color: aliceblue;
+}
+.product4-box {
+    display: grid;
+    grid-template-columns: repeat( auto-fit,minmax(100px,1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+.product4-item {
+    background-color: rgb(24, 21, 21);
+    height: fit-content;
+    color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px,4px,4px;
+}
+.product4-item:hover{
+    transform: translateY(-5px);
+}
+.product4-item .placeholder{
+    background-color: #ccc;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+ background-size: cover;
+ background-position: center;
+}
+.product4-item .placeholder h2 {
+    text-align: justify;
+}
+
+ .hero1{
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url(tony2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 420px;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: top;
+    color: rgb(243, 238, 238);
+ }
+ .hero1 h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: rgb(250, 250, 250);
+    text-shadow: 0 2px 8px rgba(244, 3, 3, 0.45);
+    text-align: center;
+}
+
+.hero1 h2{
+    text-shadow: red;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.hero1 p {
+    font-size: 15px ;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    width: 700px;
+    text-shadow: rgba(239, 8, 8, 0.45);
+    text-align: left;
+}
